@@ -1,18 +1,14 @@
 var React = require('react');
+var moment = require('moment');
 
 module.exports = React.createClass({
 
-  render: function(){
-    console.log(this.props);
-    return <div className="col-xs-6 col-md-3">
-      <div className="thumbnail">
-        <div className="media">
-          <div className="media-body">
-            <h4 className="media-heading">{this.props.delivery.manifest.description}</h4>
-            <p>{this.props.delivery.status}</p>
-          </div>
-        </div>
+  render: function() {
+    return <article>
+      <div>
+        {this.props.delivery.manifest.description}
+        [{moment(this.props.delivery.dropoff_eta).format('HH:mm')}]
       </div>
-    </div>
+    </article>
   }
 });
