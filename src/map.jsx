@@ -20,7 +20,7 @@ module.exports = React.createClass({
     return {
       orders: [],
       center: new LatLng(37.761464, -122.388480),
-      zoom: 14
+      zoom: 13
     };
   },
 
