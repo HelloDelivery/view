@@ -1,5 +1,5 @@
 var React = require('react');
-var ThumbnailList = require('./thumbnail-list');
+var Map = require('./map');
 
-var element = React.createElement(ThumbnailList, {})
+var element = React.createElement(Map, {})
 React.render(element, document.getElementById('container'));

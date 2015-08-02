@@ -23,6 +23,7 @@
     "lodash": "^3.10.0",
     "moment": "^2.10.6",
     "react": "^0.13.3",
+    "react-googlemaps": "^0.4.0",
     "reactfire": "^0.4.0",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0",
