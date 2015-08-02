@@ -1,0 +1,30 @@
+{
+  "name": "HelloDeliveries-Restaurant",
+  "version": "1.0.0",
+  "description": "Playlist project using React and Firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelloDelivery/view.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloDelivery/view/issues"
+  },
+  "homepage": "https://github.com/HelloDelivery",
+  "dependencies": {
+    "browserify": "^10.2.6",
+    "firebase": "^2.2.7",
+    "gulp-util": "^3.0.6",
+    "react": "^0.13.3",
+    "reactfire": "^0.4.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.3"
+  },
+  "devDependencies": {}
+}
