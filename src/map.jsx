@@ -36,7 +36,6 @@ module.exports = React.createClass({
         return { position: new LatLng(position.lat, position.lng) }
       }
     }).filter().value();
-    console.log(markers);
     return (
       <div>
       <Map
